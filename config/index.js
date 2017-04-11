@@ -1,3 +1,4 @@
+import axios from 'axios';
 import article from './article';
 import getFlags from './flags';
 import getOnwardJourney from './onward-journey';
@@ -6,6 +7,18 @@ export default async () => {
   const d = await article();
   const flags = await getFlags();
   const onwardJourney = await getOnwardJourney();
+  const berthaId = '1Qajon8QC-PSw1hG4AVqEYAKc-sWu0zW_PMKIEKvhlOU';
+  const endpoint = `https://bertha.ig.ft.com/view/publish/gss/${berthaId}/data`;
+  const res = await axios(endpoint);
+  const berthaData = res.data;
+  let table;
+
+  // try {
+  //   table = ReactDOMServer.renderToString(<GTable data={berthaData} />);
+  // } catch (e) {
+  //   console.log('Error pre-rendering React:', e);
+  // }
+
   /*
   An experimental demo that gets content from the API
   and overwrites some model values. This requires the Link File
@@ -32,5 +45,7 @@ export default async () => {
     ...d,
     flags,
     onwardJourney,
+    berthaData,
+    table,
   };
 };

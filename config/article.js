@@ -4,33 +4,32 @@ export default () => ({ // eslint-disable-line
   id: '768f4d10-0e3c-11e7-b030-768954394623',
 
   // canonical URL of the published page
-  // https://ig.ft.com/corporate-diversity-policies get filled in by the ./configure script
-  url: 'https://ig.ft.com/corporate-diversity-policies',
+  // https://ig.ft.com/finserv-diversity get filled in by the ./configure script
+  url: 'https://ig.ft.com/managements-missing-women-data',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Politics and the English Language',
+  headline: 'Here’s what your employees think of your corporate diversity programme',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Executives across the corporate world discuss what works and what doesn’t as companies attempt to diversify their leadership',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
+    name: 'FT Readers',
+    url: 'https://www.ft.com/ftreaders',
   },
 
   relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    text: '',
+    url: '',
   },
 
   mainImage: {
     title: '',
     description: '',
-    url: '',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ab9ba1b1a-1634-11e7-b0c1-37e417ee6c76?source=ig&width=2048&height=1152',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -38,15 +37,17 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Lilah Raptopoulos', url: 'https://www.ft.com/stream/authorsId/YWFhZjY4NWUtNTY3MS00ZTZiLWE3MDQtY2YyMzE5NDRmMzUz-QXV0aG9ycw==' },
+    { name: 'Martin Stabe', url: 'https://www.ft.com/martin-stabe' },
+        { name: 'Laura Noonan', url: 'https://www.ft.com/stream/authorsId/Q0ItTE41Njc4OQ==-QXV0aG9ycw==' },
+            { name: 'Sarah Gordon', url: 'https://www.ft.com/sarah-gordon' },
   ],
 
   // Appears in the HTML <title>
   title: '',
 
   // meta data
-  description: '',
+  description: 'Huge efforts made by the financial sector fail to close the gender gap',
 
   /*
   TODO: Select Twitter card type -
@@ -62,19 +63,19 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  // socialImage: '',
-  // socialHeadline: '',
-  // socialSummary:  '',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae14fd81e-1890-11e7-a53d-df09f373be87?source=ig&width=1400',
+  socialHeadline: '',
+  socialSummary: 'Huge efforts made by the financial sector fail to close the gender gap',
 
   // TWITTER
-  // twitterImage: '',
-  // twitterCreator: '@individual's_account',
-  // tweetText:  '',
-  // twitterHeadline:  '',
+  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae14fd81e-1890-11e7-a53d-df09f373be87?source=ig&width=1400',
+  twitterCreator: '@FT',
+  tweetText: 'How successful are efforts to narrow the financial services industry\'s gender gap? We gathered the data to find out.',
+  twitterHeadline: 'Management\'s missing women',
 
   // FACEBOOK
-  // facebookImage: '',
-  // facebookHeadline: '',
+  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae14fd81e-1890-11e7-a53d-df09f373be87?source=ig&width=1400',
+  facebookHeadline: 'How are financial services firms doing on gender equality?',
 
   tracking: {
 

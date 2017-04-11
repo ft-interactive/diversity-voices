@@ -143,7 +143,8 @@ var polyfill_features = [
 ];
 
 var polfill_url = 'https://cdn.polyfill.io/v2/polyfill.min.js?callback=clear_queue&features='
-                    + polyfill_features.join(',');
+                    + polyfill_features.join(',')
+;
 
 exec(polfill_url, true, false, null, {crossorigin: 'anonymous'})
 
