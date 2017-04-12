@@ -8,6 +8,7 @@
     "o-teaser": "^1.11.3",
     "o-forms": "^3.5.0",
     "o-visual-effects": "^1.0.0",
-    "o-buttons": "^4.5.4"
+    "o-buttons": "^4.5.4",
+    "o-card": "^2.2.4"
   }
 }
