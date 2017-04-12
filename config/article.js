@@ -29,7 +29,7 @@ export default () => ({ // eslint-disable-line
   mainImage: {
     title: '',
     description: '',
-    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Adc372216-1f97-11e7-a454-ab04428977f9?source=ig&width=2048&height=1152',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa21fc59a-1f99-11e7-a454-ab04428977f9?source=ig&width=2048&height=1152',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -62,18 +62,18 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Adc372216-1f97-11e7-a454-ab04428977f9?source=ig&width=1400',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa21fc59a-1f99-11e7-a454-ab04428977f9?source=ig&width=1400',
   socialHeadline: 'Here’s what your employees think of your company gender diversity programme',
   socialSummary: 'Executives across the corporate world discuss what works and what doesn’t as companies attempt to diversify their leadership',
 
   // TWITTER
-  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Adc372216-1f97-11e7-a454-ab04428977f9?source=ig&width=1400',
+  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa21fc59a-1f99-11e7-a454-ab04428977f9?source=ig&width=1400',
   twitterCreator: '@FT',
   tweetText: 'Here’s what your employees think of your corporate diversity programme',
   twitterHeadline: 'Management’s missing women',
 
   // FACEBOOK
-  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Adc372216-1f97-11e7-a454-ab04428977f9?source=ig&width=1400',
+  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa21fc59a-1f99-11e7-a454-ab04428977f9?source=ig&width=1400',
   facebookHeadline: 'Here’s what your employees think of your company gender diversity programme',
 
   tracking: {
