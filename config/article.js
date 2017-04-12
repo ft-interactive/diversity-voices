@@ -11,7 +11,7 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date('2017-04-13T05:30:00Z'),
 
-  headline: 'Here’s what your employees think of your company gender diversity programme',
+  headline: 'Do company diversity programmes actually help women get ahead?',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'Executives across the corporate world discuss what works and what doesn’t as companies attempt to diversify their leadership',
@@ -29,7 +29,7 @@ export default () => ({ // eslint-disable-line
   mainImage: {
     title: '',
     description: '',
-    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Adc372216-1f97-11e7-a454-ab04428977f9?source=ig&width=2048&height=1152',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa21fc59a-1f99-11e7-a454-ab04428977f9?source=ig&width=2048&height=1152',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -38,7 +38,6 @@ export default () => ({ // eslint-disable-line
   // if array of authors, url is optional
   byline: [
     { name: 'Lilah Raptopoulos', url: 'https://www.ft.com/stream/authorsId/YWFhZjY4NWUtNTY3MS00ZTZiLWE3MDQtY2YyMzE5NDRmMzUz-QXV0aG9ycw==' },
-    { name: 'Martin Stabe', url: 'https://www.ft.com/martin-stabe' },
     { name: 'Laura Noonan', url: 'https://www.ft.com/stream/authorsId/Q0ItTE41Njc4OQ==-QXV0aG9ycw==' },
     { name: 'Sarah Gordon', url: 'https://www.ft.com/sarah-gordon' },
   ],
@@ -63,18 +62,18 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Adc372216-1f97-11e7-a454-ab04428977f9?source=ig&width=1400',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa21fc59a-1f99-11e7-a454-ab04428977f9?source=ig&width=1400',
   socialHeadline: 'Here’s what your employees think of your company gender diversity programme',
   socialSummary: 'Executives across the corporate world discuss what works and what doesn’t as companies attempt to diversify their leadership',
 
   // TWITTER
-  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Adc372216-1f97-11e7-a454-ab04428977f9?source=ig&width=1400',
+  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa21fc59a-1f99-11e7-a454-ab04428977f9?source=ig&width=1400',
   twitterCreator: '@FT',
-  tweetText: 'Here’s what your employees think of your company gender diversity programme',
-  twitterHeadline: 'Management\'s missing women',
+  tweetText: 'Here’s what your employees think of your corporate diversity programme',
+  twitterHeadline: 'Management’s missing women',
 
   // FACEBOOK
-  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Adc372216-1f97-11e7-a454-ab04428977f9?source=ig&width=1400',
+  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa21fc59a-1f99-11e7-a454-ab04428977f9?source=ig&width=1400',
   facebookHeadline: 'Here’s what your employees think of your company gender diversity programme',
 
   tracking: {
