@@ -5,13 +5,13 @@ export default () => ({ // eslint-disable-line
 
   // canonical URL of the published page
   // https://ig.ft.com/finserv-diversity get filled in by the ./configure script
-  url: 'https://ig.ft.com/managements-missing-women-stories',
+  url: 'https://ig.ft.com/company-diversity-employee-views',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date('2017-04-13T05:30:00Z'),
 
-  headline: 'Here’s what your employees think of your corporate diversity programme',
+  headline: 'Do company diversity programmes actually help women get ahead?',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'Executives across the corporate world discuss what works and what doesn’t as companies attempt to diversify their leadership',
@@ -38,7 +38,6 @@ export default () => ({ // eslint-disable-line
   // if array of authors, url is optional
   byline: [
     { name: 'Lilah Raptopoulos', url: 'https://www.ft.com/stream/authorsId/YWFhZjY4NWUtNTY3MS00ZTZiLWE3MDQtY2YyMzE5NDRmMzUz-QXV0aG9ycw==' },
-    { name: 'Martin Stabe', url: 'https://www.ft.com/martin-stabe' },
     { name: 'Laura Noonan', url: 'https://www.ft.com/stream/authorsId/Q0ItTE41Njc4OQ==-QXV0aG9ycw==' },
     { name: 'Sarah Gordon', url: 'https://www.ft.com/sarah-gordon' },
   ],
@@ -71,7 +70,7 @@ export default () => ({ // eslint-disable-line
   twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae14fd81e-1890-11e7-a53d-df09f373be87?source=ig&width=1400',
   twitterCreator: '@FT',
   tweetText: 'Here’s what your employees think of your corporate diversity programme',
-  twitterHeadline: 'Management\'s missing women',
+  twitterHeadline: 'Management’s missing women',
 
   // FACEBOOK
   facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae14fd81e-1890-11e7-a53d-df09f373be87?source=ig&width=1400',
