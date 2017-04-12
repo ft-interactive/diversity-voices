@@ -17,8 +17,6 @@ dependencies:
 test:
   override:
     - yarn test
-  post:
-    - yarn run preflight
 
 deployment:
   s3:
