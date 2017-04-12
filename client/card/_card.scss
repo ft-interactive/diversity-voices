@@ -32,7 +32,7 @@
 
 
 .card-position {
-  @include oCard;
+  @include oCard();
   background: #FDF8F2;
   padding: 1em 30px;
   box-shadow: 0 1px 2px 1px rgba(0,0,0,.15);
@@ -156,11 +156,21 @@
     @include oTypographySansBold(s);
     font-size: 17px !important;
 
-
-
     &:hover {
     color: #807970 !important;
     border-bottom-color: transparent;
+    }
+  }
+}
+
+.o-typography-body-wrapper {
+  .card {
+    padding: 0;
+    img.card-img {
+      width: 100%;
+    }
+    .card-body {
+      padding: 0 0.75em;
     }
   }
 }

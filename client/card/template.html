@@ -2,18 +2,21 @@
 
 <hr />
 
-  <div class="card" style="background:#fff;">
-    {% if i.name %}<h1>{{ i.name }}{% else %}<h1>Anonymous</h1>{% endif %}
-   
-    {% if i.title %}<p class="job">{{ i.title }}{% if i.companyname %}, {{ i.companyname }}{% endif %}{% elseif i.companyname %}<p>{{ i.companyname }}</p>{% endif %}
-    {% if i.city %}<p class="location">{{ i.city }}{% if i.country %}, {{ i.country }}{% endif %}{% elseif i.country %}<p>{{ i.country }}</p>{% endif %}
-    
-    {% if i.industry %}<p>Category: {{ i.industry }}</p>{% endif %}
+  <div class="card">
+    {% if i.imguuid %}
+    <img src="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A{{ i.imguuid }}?source=ig&width=649" alt="" class="card-img" />
+    {% endif %}
 
-    <div><h1 style="text-align:center;">&ldquo;</h1></div>
-    {{ i.blurb | safe }}
-    <div><h1 style="text-align:center;">&rdquo;</h1></div>
+    <div class="card-body">
+      {% if i.name %}<h1>{{ i.name }}{% else %}<h1>Anonymous</h1>{% endif %}
 
+      {% if i.title %}<p class="job">{{ i.title }}{% if i.companyname %}, {{ i.companyname }}{% endif %}{% elseif i.companyname %}<p>{{ i.companyname }}</p>{% endif %}
+      {% if i.city %}<p class="location">{{ i.city }}{% if i.country %}, {{ i.country }}{% endif %}{% elseif i.country %}<p>{{ i.country }}</p>{% endif %}
+
+      <div><h1 style="text-align:center;">&ldquo;</h1></div>
+      {{ i.blurb | safe }}
+      <div><h1 style="text-align:center;">&rdquo;</h1></div>
+    </div>
   </div>
 
 {% endif %}
