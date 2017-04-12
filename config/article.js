@@ -21,10 +21,10 @@ export default () => ({ // eslint-disable-line
     url: 'https://www.ft.com/ftreaders',
   },
 
-  relatedArticle: {
-    text: '',
-    url: '',
-  },
+  // relatedArticle: {
+  //   text: '',
+  //   url: '',
+  // },
 
   mainImage: {
     title: '',
