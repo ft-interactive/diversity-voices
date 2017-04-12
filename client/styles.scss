@@ -1,9 +1,22 @@
 @import 'o-colors/main';
 @import 'o-grid/main';
 @import 'components/core/main';
+@import 'o-visual-effects/main';
+@import 'o-buttons/main';
 
 img.img-graphic {
   width: 100%;
+}
+
+.form-button {
+  @include oButtons();
+  @include oButtonsSize(big);
+  // @include oButtonsTheme(standout);
+  margin: 0 auto;
+}
+
+.card {
+  @include oEffectsShadowsElevation(mid);
 }
 
 div {
